@@ -595,6 +595,7 @@ span.ingredient {
   color: #ffffff;
 }
 .subscribe-form-submit {
+  display: flex;
   min-width: 165px;
   justify-content: center;
   align-items: center;
@@ -609,15 +610,12 @@ span.ingredient {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  line-height: 1.5;
 }
 .subscribe-icon {
   position: absolute;
-
-  width: 24px;
-  height: 24px;
+  margin-left: 16px;
   color: #ffffff;
 }
 /*========subscribe======*/
@@ -770,7 +768,6 @@ span.ingredient {
   min-width: 169px;
   align-self: center;
   height: 56px;
-  font-size: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
@@ -779,11 +776,18 @@ span.ingredient {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-form-submit {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
 /*========Modal form=======*/
 .button-close {
   color: #2e2f42;
