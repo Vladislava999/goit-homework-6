@@ -550,6 +550,7 @@ span.ingredient {
 .subscribe-form {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 .subscribe-form-span {
   display: block;
