@@ -596,12 +596,12 @@ span.ingredient {
   color: #ffffff;
 }
 .subscribe-form-submit {
-  border: none;
   min-width: 165px;
   justify-content: center;
   align-items: center;
   gap: 16px;
   height: 40px;
+  border: none;
   font-size: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -631,6 +631,7 @@ span.ingredient {
   position: fixed;
   top: 0;
   left: 0;
+  padding: 72px 24px 24px 24px;
 }
 
 .is-hidden {
@@ -656,7 +657,7 @@ span.ingredient {
   padding-right: 24px;
 }
 /*========Modal form=======*/
-.modal-title {
+.backdrop .modal-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-family: Roboto;
