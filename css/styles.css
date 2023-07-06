@@ -201,7 +201,6 @@ span.ingredient-header {
 button {
   color: var(--bottom, #ffffff);
   background: var(--background-bottom, #4d5ae5);
-  margin-top: 48px;
   cursor: pointer;
   display: block;
   margin-left: auto;
@@ -213,6 +212,7 @@ button {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  margin-top: 48px;
   letter-spacing: 0.64px;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
