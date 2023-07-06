@@ -199,6 +199,7 @@ span.ingredient-header {
   max-width: 496px;
 }
 button {
+  display: flex;
   color: var(--bottom, #ffffff);
   background: var(--background-bottom, #4d5ae5);
   cursor: pointer;
@@ -595,7 +596,7 @@ span.ingredient {
   color: #ffffff;
 }
 .subscribe-form-submit {
-  display: flex;
+  border: none;
   min-width: 165px;
   justify-content: center;
   align-items: center;
