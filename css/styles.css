@@ -582,11 +582,20 @@ span.ingredient {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: var(--navyblue, #2e2f42);
   padding-left: 16px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+
   transition: border-color var(--transition-dur-and-func);
+}
+.subscribe-form-input::placeholder {
+  color: #ffffff;
 }
 .subscribe-form-submit {
   min-width: 165px;
-
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -664,7 +673,7 @@ span.ingredient {
   display: flex;
   flex-direction: column;
 }
-.modal-form-span {
+.subscribe-form-submit {
   display: block;
   position: relative;
 }
