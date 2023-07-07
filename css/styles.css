@@ -751,13 +751,10 @@ span.ingredient {
   width: 16px;
   height: 16px;
 }
-.user-icon {
-  width: 10px;
-  height: 8px;
-  fill: var(--cloud, #f4f4fd);
-}
+
 .modal-form-check:checked + .modal-form-check span {
   background-color: var(--ocean, #404bbf);
+  fill: var(--cloud, #f4f4fd);
 }
 
 .modal-form-submit {
