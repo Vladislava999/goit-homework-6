@@ -737,28 +737,29 @@ span.ingredient {
   outline: none;
   border-color: var(--background-bottom, #4d5ae5);
 }
+.modal-form-check {
+  appearance: none;
+}
 .modal-form-check-desc {
   display: flex;
   align-items: center;
   font-size: 12px;
-  margin-bottom: 24px;
 }
-.modal-form-check-desc::before {
-  display: block;
+
+.modal-form-check svg {
+  fill: transparent;
   width: 16px;
   height: 16px;
-  border-radius: 2px;
-  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
-  content: '';
-  cursor: pointer;
-  margin-right: 8px;
 }
-.modal-form-check:checked + .modal-form-check-desc::before {
+.user-icon {
+  width: 10px;
+  height: 8px;
+  fill: var(--cloud, #f4f4fd);
+}
+.modal-form-check:checked + .modal-form-check span {
   background-color: var(--ocean, #404bbf);
-  background-image: url(../images/symbol-defs.svg);
 }
-.modal-form-check:focus + .modal-form-check-desc::before {
-}
+
 .modal-form-submit {
   margin: 0;
 }
@@ -785,6 +786,11 @@ span.ingredient {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+}
+.modal-form-policy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
 /*========Modal form=======*/
 .button-close {
