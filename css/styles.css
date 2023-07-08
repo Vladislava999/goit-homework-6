@@ -735,7 +735,7 @@ span.ingredient {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+
   height: 40px;
   border: none;
   font-size: 16px;
@@ -752,6 +752,7 @@ span.ingredient {
   line-height: 1.5;
 }
 .subscribe-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 /*========subscribe======*/
