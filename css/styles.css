@@ -812,7 +812,7 @@ span.ingredient {
 .user-icon {
   fill: transparent;
 }
-.modal-form-check:checked + modal-form-check-desc span {
+.modal-form-check:checked + user-policy-span {
   background-color: var(--chacked, #404bbf);
   border: none;
   fill: var(--background-team, #f4f4fd);
