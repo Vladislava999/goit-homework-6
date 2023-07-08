@@ -719,6 +719,9 @@ span.ingredient {
 .modal-form-input:focus + .modal-input-icon {
   fill: #4d5ae5;
 }
+.modal-form-comment {
+  margin-bottom: 16px;
+}
 .modal-form-text {
   width: 100%;
   height: 120px;
@@ -805,9 +808,9 @@ span.ingredient {
 .modal-privacy {
   color: #4d5ae5;
 }
-.modal-form-check:checked + modal-form-check-desc span {
+.user-privacy:checked + user-policy-span {
   background-color: var(--chacked, #404bbf);
-
+  border: none;
   fill: var(--background-team, #f4f4fd);
 }
 .modal-form-check {
