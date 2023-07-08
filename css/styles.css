@@ -18,6 +18,7 @@
   --background-footer: #2e2f42;
   --background-bottom: #4d5ae5;
   --customers-link: #8e8f99;
+  --chacked: #404bbf;
 }
 
 .list {
@@ -703,6 +704,7 @@ span.ingredient {
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
+
 .modal-form-input:focus {
   outline: none;
   border-color: var(--background-bottom, #4d5ae5);
@@ -746,6 +748,11 @@ span.ingredient {
 .modal-form-check {
   appearance: none;
 }
+.modal-form-check :checked {
+  background-color: var(--chacked, #404bbf);
+  border: none;
+  fill: var(--background-team, #f4f4fd);
+}
 .modal-form-check-desc {
   display: flex;
   align-items: center;
@@ -755,6 +762,7 @@ span.ingredient {
   color: var(--customers-link, #8e8f99);
 }
 .user-policy-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -762,7 +770,7 @@ span.ingredient {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
   fill: transparent;
