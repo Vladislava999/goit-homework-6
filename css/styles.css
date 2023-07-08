@@ -907,12 +907,10 @@ span.ingredient {
   justify-content: center;
   fill: transparent;
 }
+
 .modal-form-submit {
-  margin: 0;
-}
-.modal-form-submit {
-  min-width: 169px;
   align-self: center;
+  min-width: 169px;
   height: 56px;
   padding-top: 16px;
   padding-bottom: 16px;
